@@ -1,0 +1,6 @@
+*.pyc
+*~
+todo.txt
+data/*
+multiprocessing_tests.py
+performance_tests.py

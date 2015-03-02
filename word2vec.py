@@ -379,7 +379,7 @@ if __name__ == '__main__':
     parser.add_argument('-alpha', help='Starting alpha', dest='alpha', default=0.025, type=float)
     parser.add_argument('-window', help='Max window length', dest='win', default=5, type=int) 
     parser.add_argument('-min-count', help='Min count for words used to learn <unk>', dest='min_count', default=5, type=int)
-    parser.add_argument('-processes', help='Number of threads', dest='num_processes', default=1, type=int)
+    parser.add_argument('-processes', help='Number of processes', dest='num_processes', default=1, type=int)
     parser.add_argument('-binary', help='1 for output model in binary format, 0 otherwise', dest='binary', default=0, type=int)
     #TO DO: parser.add_argument('-epoch', help='Number of training epochs', dest='epoch', default=1, type=int)
     args = parser.parse_args()
