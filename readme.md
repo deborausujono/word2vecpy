@@ -31,6 +31,17 @@ Implementation Details
 ----------------------
 Written in Python 2.7.6 and NumPy 1.9.1.
 
+Evaluation
+----------
+Accuracy (%) on the word analogy task compared against the original C implementation (in parentheses). Trained on a preprocessed version of the first 10<sup>8</sup> bytes of the English Wikipedia dump on March 3, 2006 (http://mattmahoney.net/dc/textdata.html).
+
+| Model        | Total         | Semantic      | Syntactic     |
+|:------------ |--------------:| -------------:| -------------:|
+| CBOW HS      | 6.76 (6.90)   | 4.86 (3.61)   | 7.93 (8.93)   |
+| CBOW NS      | 4.52 (6.72)   | 3.94 (3.74)   | 4.88 (8.56)   |
+| Skip-gram HS | 14.76 (14.59) | 11.40 (10.40) | 16.83 (17.18) |       
+| Skip-gram NS | 8.43 (7.72)   | 4.91 (4.62)   | 10.62 (9.63)  |
+
 References
 ----------
 Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013a). Distributed representations of words and phrases and their compositionality. Advances in Neural Information Processing Systems. http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
