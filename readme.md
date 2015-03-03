@@ -35,8 +35,9 @@ Evaluation
 ----------
 Accuracy (%) on the word analogy task compared against the original C implementation (in parentheses). Trained on a preprocessed version of the first 10<sup>8</sup> bytes of the English Wikipedia dump on March 3, 2006 (http://mattmahoney.net/dc/textdata.html).
 
+|:------------:|:-------------:|:-------------:|:-------------:|
 | Model        | Total         | Semantic      | Syntactic     |
-|:------------ |--------------:| -------------:| -------------:|
+|:------------ | -------------:| -------------:| -------------:|
 | CBOW HS      | 6.76 (6.90)   | 4.86 (3.61)   | 7.93 (8.93)   |
 | CBOW NS      | 4.52 (6.72)   | 3.94 (3.74)   | 4.88 (8.56)   |
 | Skip-gram HS | 14.76 (14.59) | 11.40 (10.40) | 16.83 (17.18) |       
